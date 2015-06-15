@@ -65,6 +65,6 @@ $ ./start_server.sh
 2. Start to write you own app with the powerful django framework
 
 
-### About
+## About
 
 Project Page: https://github.com/terryoy/django-skeleton
