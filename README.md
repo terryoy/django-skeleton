@@ -54,6 +54,9 @@ Simple hosting with nginx and gunicorn:
 $ sudo cp ../nginx/django-skeleton.conf /etc/nginx/site-enabled/<your_app_name>.conf
 $ sudo service nginx reload
 
+# collect the static files for nginx
+$ python manage.py collectstatic --settings=app.local_settings
+
 # execute the start server script
 $ ./start_server.sh
 
