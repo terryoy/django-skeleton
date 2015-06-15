@@ -59,7 +59,7 @@ $ ./start_server.sh
 
 ```
 
-## 4. What to do next?
+## What to do next?
 
 1. Install your third party dependencies
 2. Start to write you own app with the powerful django framework
