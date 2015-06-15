@@ -50,7 +50,7 @@ Simple hosting with nginx and gunicorn:
 ```bash
 
 # Update any settings you want at "app/local_settings.py", "start_server.sh", "../nginx/django-skeleton.conf",
-# 
+# (Separating "app/settings.py" and "app/local_settings.py" is for the separation of local development and public preview.)
 $ sudo cp ../nginx/django-skeleton.conf /etc/nginx/site-enabled/<your_app_name>.conf
 $ sudo service nginx reload
 
