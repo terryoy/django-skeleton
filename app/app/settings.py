@@ -83,6 +83,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# default static root, where you use "collectstatic" to collect static files
+MEDIA_ROOT = os.path.join(BASE_DIR, "static")
 # where to upload files
 MEDIA_ROOT = os.path.join(BASE_DIR, "upload")
 
