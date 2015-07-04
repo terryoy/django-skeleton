@@ -10,4 +10,8 @@ local_settings.py
 *.sqlite3
 *.db
 .pid_gunicorn
-upload/
+
+/static
+/static/
+/upload
+/upload/
